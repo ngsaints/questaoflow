@@ -1,0 +1,11 @@
+node_modules/
+uploads/
+data/*.json
+!data/.gitkeep
+logs/
+dist/
+dist-electron/
+.env
+*.log
+.DS_Store
+Thumbs.db

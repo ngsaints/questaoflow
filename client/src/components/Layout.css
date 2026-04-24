@@ -1,0 +1,22 @@
+.collapse-btn {
+  position: absolute;
+  bottom: 24px;
+  right: -12px;
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+  background: var(--surface);
+  border: 1px solid var(--border);
+  color: var(--text-secondary);
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.3s ease;
+}
+
+.collapse-btn:hover {
+  background: var(--accent);
+  border-color: var(--accent);
+  color: white;
+}
